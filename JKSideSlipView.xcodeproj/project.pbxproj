@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2D1033D1A60DEB500ED513A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D1033C1A60DEB500ED513A /* main.m */; };
+		A2D103401A60DEB500ED513A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D1033F1A60DEB500ED513A /* AppDelegate.m */; };
+		A2D103481A60DEB500ED513A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D103471A60DEB500ED513A /* Images.xcassets */; };
+		A2D1034B1A60DEB500ED513A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D103491A60DEB500ED513A /* LaunchScreen.xib */; };
+		A2D103571A60DEB500ED513A /* JKSideSlipViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D103561A60DEB500ED513A /* JKSideSlipViewTests.m */; };
+		A2D103641A60DEFF00ED513A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D103621A60DEFF00ED513A /* RootViewController.m */; };
+		A2D103651A60DEFF00ED513A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D103631A60DEFF00ED513A /* RootViewController.xib */; };
+		A2D103681A60E06600ED513A /* JKSideSlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D103671A60E06600ED513A /* JKSideSlipView.m */; };
+		A2D1036A1A60F93200ED513A /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2D103691A60F93200ED513A /* bg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2D103511A60DEB500ED513A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D1032F1A60DEB500ED513A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D103361A60DEB500ED513A;
+			remoteInfo = JKSideSlipView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2D103371A60DEB500ED513A /* JKSideSlipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKSideSlipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D1033B1A60DEB500ED513A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D1033C1A60DEB500ED513A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2D1033E1A60DEB500ED513A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2D1033F1A60DEB500ED513A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2D103471A60DEB500ED513A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2D1034A1A60DEB500ED513A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A2D103501A60DEB500ED513A /* JKSideSlipViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKSideSlipViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D103551A60DEB500ED513A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D103561A60DEB500ED513A /* JKSideSlipViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSideSlipViewTests.m; sourceTree = "<group>"; };
+		A2D103611A60DEFF00ED513A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A2D103621A60DEFF00ED513A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A2D103631A60DEFF00ED513A /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		A2D103661A60E06600ED513A /* JKSideSlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSideSlipView.h; sourceTree = "<group>"; };
+		A2D103671A60E06600ED513A /* JKSideSlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSideSlipView.m; sourceTree = "<group>"; };
+		A2D103691A60F93200ED513A /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D103341A60DEB500ED513A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D1034D1A60DEB500ED513A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2D1032E1A60DEB500ED513A = {
+			isa = PBXGroup;
+			children = (
+				A2D103391A60DEB500ED513A /* JKSideSlipView */,
+				A2D103531A60DEB500ED513A /* JKSideSlipViewTests */,
+				A2D103381A60DEB500ED513A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D103381A60DEB500ED513A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D103371A60DEB500ED513A /* JKSideSlipView.app */,
+				A2D103501A60DEB500ED513A /* JKSideSlipViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D103391A60DEB500ED513A /* JKSideSlipView */ = {
+			isa = PBXGroup;
+			children = (
+				A2D103601A60DEC300ED513A /* JKSideSlipView */,
+				A2D1033E1A60DEB500ED513A /* AppDelegate.h */,
+				A2D1033F1A60DEB500ED513A /* AppDelegate.m */,
+				A2D103611A60DEFF00ED513A /* RootViewController.h */,
+				A2D103621A60DEFF00ED513A /* RootViewController.m */,
+				A2D103631A60DEFF00ED513A /* RootViewController.xib */,
+				A2D103491A60DEB500ED513A /* LaunchScreen.xib */,
+				A2D103691A60F93200ED513A /* bg.jpg */,
+				A2D103471A60DEB500ED513A /* Images.xcassets */,
+				A2D1033A1A60DEB500ED513A /* Supporting Files */,
+			);
+			path = JKSideSlipView;
+			sourceTree = "<group>";
+		};
+		A2D1033A1A60DEB500ED513A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1033B1A60DEB500ED513A /* Info.plist */,
+				A2D1033C1A60DEB500ED513A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2D103531A60DEB500ED513A /* JKSideSlipViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D103561A60DEB500ED513A /* JKSideSlipViewTests.m */,
+				A2D103541A60DEB500ED513A /* Supporting Files */,
+			);
+			path = JKSideSlipViewTests;
+			sourceTree = "<group>";
+		};
+		A2D103541A60DEB500ED513A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D103551A60DEB500ED513A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2D103601A60DEC300ED513A /* JKSideSlipView */ = {
+			isa = PBXGroup;
+			children = (
+				A2D103661A60E06600ED513A /* JKSideSlipView.h */,
+				A2D103671A60E06600ED513A /* JKSideSlipView.m */,
+			);
+			path = JKSideSlipView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D103361A60DEB500ED513A /* JKSideSlipView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D1035A1A60DEB500ED513A /* Build configuration list for PBXNativeTarget "JKSideSlipView" */;
+			buildPhases = (
+				A2D103331A60DEB500ED513A /* Sources */,
+				A2D103341A60DEB500ED513A /* Frameworks */,
+				A2D103351A60DEB500ED513A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKSideSlipView;
+			productName = JKSideSlipView;
+			productReference = A2D103371A60DEB500ED513A /* JKSideSlipView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2D1034F1A60DEB500ED513A /* JKSideSlipViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D1035D1A60DEB500ED513A /* Build configuration list for PBXNativeTarget "JKSideSlipViewTests" */;
+			buildPhases = (
+				A2D1034C1A60DEB500ED513A /* Sources */,
+				A2D1034D1A60DEB500ED513A /* Frameworks */,
+				A2D1034E1A60DEB500ED513A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D103521A60DEB500ED513A /* PBXTargetDependency */,
+			);
+			name = JKSideSlipViewTests;
+			productName = JKSideSlipViewTests;
+			productReference = A2D103501A60DEB500ED513A /* JKSideSlipViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D1032F1A60DEB500ED513A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = www.skyfox.org;
+				TargetAttributes = {
+					A2D103361A60DEB500ED513A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A2D1034F1A60DEB500ED513A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A2D103361A60DEB500ED513A;
+					};
+				};
+			};
+			buildConfigurationList = A2D103321A60DEB500ED513A /* Build configuration list for PBXProject "JKSideSlipView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D1032E1A60DEB500ED513A;
+			productRefGroup = A2D103381A60DEB500ED513A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D103361A60DEB500ED513A /* JKSideSlipView */,
+				A2D1034F1A60DEB500ED513A /* JKSideSlipViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D103351A60DEB500ED513A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D1034B1A60DEB500ED513A /* LaunchScreen.xib in Resources */,
+				A2D103481A60DEB500ED513A /* Images.xcassets in Resources */,
+				A2D1036A1A60F93200ED513A /* bg.jpg in Resources */,
+				A2D103651A60DEFF00ED513A /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D1034E1A60DEB500ED513A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D103331A60DEB500ED513A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D103681A60E06600ED513A /* JKSideSlipView.m in Sources */,
+				A2D103401A60DEB500ED513A /* AppDelegate.m in Sources */,
+				A2D1033D1A60DEB500ED513A /* main.m in Sources */,
+				A2D103641A60DEFF00ED513A /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D1034C1A60DEB500ED513A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D103571A60DEB500ED513A /* JKSideSlipViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2D103521A60DEB500ED513A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D103361A60DEB500ED513A /* JKSideSlipView */;
+			targetProxy = A2D103511A60DEB500ED513A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2D103491A60DEB500ED513A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D1034A1A60DEB500ED513A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D103581A60DEB500ED513A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2D103591A60DEB500ED513A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D1035B1A60DEB500ED513A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKSideSlipView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2D1035C1A60DEB500ED513A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKSideSlipView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2D1035E1A60DEB500ED513A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JKSideSlipViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKSideSlipView.app/JKSideSlipView";
+			};
+			name = Debug;
+		};
+		A2D1035F1A60DEB500ED513A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JKSideSlipViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKSideSlipView.app/JKSideSlipView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D103321A60DEB500ED513A /* Build configuration list for PBXProject "JKSideSlipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D103581A60DEB500ED513A /* Debug */,
+				A2D103591A60DEB500ED513A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D1035A1A60DEB500ED513A /* Build configuration list for PBXNativeTarget "JKSideSlipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D1035B1A60DEB500ED513A /* Debug */,
+				A2D1035C1A60DEB500ED513A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2D1035D1A60DEB500ED513A /* Build configuration list for PBXNativeTarget "JKSideSlipViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D1035E1A60DEB500ED513A /* Debug */,
+				A2D1035F1A60DEB500ED513A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D1032F1A60DEB500ED513A /* Project object */;
+}
