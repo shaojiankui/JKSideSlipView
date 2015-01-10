@@ -56,6 +56,15 @@
     [self addSubview:_blurImageView];
     
 }
+
+-(void)setContentView:(UIView*)contentView{
+    if (contentView) {
+        _contentView = contentView;
+    }
+    _contentView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+    [self addSubview:_contentView];
+
+}
 -(void)show:(BOOL)show{
     UIImage *image =  [self imageFromView:_sender.view];
    

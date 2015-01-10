@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2B72A571A6116A300E0DBEB /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B72A561A6116A300E0DBEB /* MenuView.m */; };
+		A2B72A591A6116B000E0DBEB /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B72A581A6116B000E0DBEB /* MenuView.xib */; };
+		A2B72A5D1A61211B00E0DBEB /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B72A5B1A61211B00E0DBEB /* MenuCell.m */; };
+		A2B72A5E1A61211B00E0DBEB /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B72A5C1A61211B00E0DBEB /* MenuCell.xib */; };
+		A2B72A621A61220100E0DBEB /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B72A601A61220100E0DBEB /* NextViewController.m */; };
+		A2B72A631A61220100E0DBEB /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B72A611A61220100E0DBEB /* NextViewController.xib */; };
 		A2D1033D1A60DEB500ED513A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D1033C1A60DEB500ED513A /* main.m */; };
 		A2D103401A60DEB500ED513A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D1033F1A60DEB500ED513A /* AppDelegate.m */; };
 		A2D103481A60DEB500ED513A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D103471A60DEB500ED513A /* Images.xcassets */; };
@@ -29,6 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2B72A551A6116A300E0DBEB /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		A2B72A561A6116A300E0DBEB /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		A2B72A581A6116B000E0DBEB /* MenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
+		A2B72A5A1A61211B00E0DBEB /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		A2B72A5B1A61211B00E0DBEB /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
+		A2B72A5C1A61211B00E0DBEB /* MenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		A2B72A5F1A61220100E0DBEB /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		A2B72A601A61220100E0DBEB /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		A2B72A611A61220100E0DBEB /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 		A2D103371A60DEB500ED513A /* JKSideSlipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKSideSlipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D1033B1A60DEB500ED513A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2D1033C1A60DEB500ED513A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +107,9 @@
 				A2D103611A60DEFF00ED513A /* RootViewController.h */,
 				A2D103621A60DEFF00ED513A /* RootViewController.m */,
 				A2D103631A60DEFF00ED513A /* RootViewController.xib */,
+				A2B72A5F1A61220100E0DBEB /* NextViewController.h */,
+				A2B72A601A61220100E0DBEB /* NextViewController.m */,
+				A2B72A611A61220100E0DBEB /* NextViewController.xib */,
 				A2D103491A60DEB500ED513A /* LaunchScreen.xib */,
 				A2D103691A60F93200ED513A /* bg.jpg */,
 				A2D103471A60DEB500ED513A /* Images.xcassets */,
@@ -131,6 +149,12 @@
 			children = (
 				A2D103661A60E06600ED513A /* JKSideSlipView.h */,
 				A2D103671A60E06600ED513A /* JKSideSlipView.m */,
+				A2B72A551A6116A300E0DBEB /* MenuView.h */,
+				A2B72A561A6116A300E0DBEB /* MenuView.m */,
+				A2B72A581A6116B000E0DBEB /* MenuView.xib */,
+				A2B72A5A1A61211B00E0DBEB /* MenuCell.h */,
+				A2B72A5B1A61211B00E0DBEB /* MenuCell.m */,
+				A2B72A5C1A61211B00E0DBEB /* MenuCell.xib */,
 			);
 			path = JKSideSlipView;
 			sourceTree = "<group>";
@@ -215,8 +239,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B72A5E1A61211B00E0DBEB /* MenuCell.xib in Resources */,
 				A2D1034B1A60DEB500ED513A /* LaunchScreen.xib in Resources */,
 				A2D103481A60DEB500ED513A /* Images.xcassets in Resources */,
+				A2B72A591A6116B000E0DBEB /* MenuView.xib in Resources */,
+				A2B72A631A61220100E0DBEB /* NextViewController.xib in Resources */,
 				A2D1036A1A60F93200ED513A /* bg.jpg in Resources */,
 				A2D103651A60DEFF00ED513A /* RootViewController.xib in Resources */,
 			);
@@ -238,8 +265,11 @@
 			files = (
 				A2D103681A60E06600ED513A /* JKSideSlipView.m in Sources */,
 				A2D103401A60DEB500ED513A /* AppDelegate.m in Sources */,
+				A2B72A5D1A61211B00E0DBEB /* MenuCell.m in Sources */,
 				A2D1033D1A60DEB500ED513A /* main.m in Sources */,
+				A2B72A621A61220100E0DBEB /* NextViewController.m in Sources */,
 				A2D103641A60DEFF00ED513A /* RootViewController.m in Sources */,
+				A2B72A571A6116A300E0DBEB /* MenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +452,7 @@
 				A2D1035C1A60DEB500ED513A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2D1035D1A60DEB500ED513A /* Build configuration list for PBXNativeTarget "JKSideSlipViewTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +461,7 @@
 				A2D1035F1A60DEB500ED513A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,9 +15,12 @@
     UISwipeGestureRecognizer *_leftSwipe, *_rightSwipe;
     UIImageView *_blurImageView;
     UIViewController *_sender;
+    UIView *_contentView;
 }
 - (instancetype)initWithSender:(UIViewController*)sender;
 -(void)show;
 -(void)hide;
 -(void)switchMenu;
+-(void)setContentView:(UIView*)contentView;
+
 @end
